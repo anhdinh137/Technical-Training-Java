@@ -11,5 +11,7 @@ public class userInput {
         // You can get string input with nextLine()
         System.out.println(num);
         scan.close();
+
+        // Fix branch
     }
 }
