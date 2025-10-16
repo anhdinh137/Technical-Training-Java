@@ -6,6 +6,9 @@ public class userInput {
         Scanner scan = new Scanner(System.in);
 
         int num = scan.nextInt();
+
+        // You can get all primitive input: nextChar, nextLong, ...
+        // You can get string input with nextLine()
         System.out.println(num);
         scan.close();
     }
