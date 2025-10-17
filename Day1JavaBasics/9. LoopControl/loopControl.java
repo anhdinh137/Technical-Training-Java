@@ -11,7 +11,7 @@ public class loopControl {
     // break: break out of the loop completely
     while (true){
         if (i == 0) break;
-        System.out.println("Not 10");
+        System.out.println("Not 0");
         i--;
     }
     }
