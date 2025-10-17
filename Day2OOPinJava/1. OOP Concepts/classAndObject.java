@@ -11,6 +11,7 @@ public class classAndObject {
         student.talk();
         student.introduce();
 
+        // Using polymorphism
         Student stu = new Preschooler(0, "Mark", 0, 100);
         stu.status();
     }
