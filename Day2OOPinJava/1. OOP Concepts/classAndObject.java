@@ -12,5 +12,6 @@ public class classAndObject {
         student.introduce();
 
         Student stu = new Preschooler(0, "Mark", 0, 100);
+        stu.status();
     }
 }
