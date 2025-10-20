@@ -13,7 +13,7 @@ public class AnonymousClass {
     };
 
     static AnonClass anon = new AnonClass(){
-        public static void display(){
+        public void display(){
             System.out.println("Anonymous class method");
         }
     };    

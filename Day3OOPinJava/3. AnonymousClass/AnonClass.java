@@ -1,5 +1,5 @@
 public class AnonClass {
-    public static void display(){
+    public  void display(){
         System.out.println("Anonymous Class");
     }
 }
