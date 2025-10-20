@@ -47,8 +47,11 @@ public class enums {
     // Inheritance: Enums cannot extend classes but can implement interfaces.
     public static void main(String[] args) {
         weekDay w1 = weekDay.FRIDAY;
-        weekDay w2 = weekDay.MONDAY;
-        weekDay w3 = weekDay.SATURDAY;
+        
         w1.output();
+
+        for (weekDay wd: weekDay.values()){
+            System.out.println(wd);
+        }
     }
 }
