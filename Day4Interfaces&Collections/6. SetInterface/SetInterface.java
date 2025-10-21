@@ -6,6 +6,8 @@ public class SetInterface {
     // Does not allow duplicate elements
     // HashSet, LinkedHashSet allow one null element; TreeSet does not
     // Order of elements depends on implementation:
+    
+    // Similar to the map interface
     // HashSet: no guaranteed order
     // LinkedHashSet: maintains insertion order
     // TreeSet: sorts elements in natural order (or custom Comparator)
