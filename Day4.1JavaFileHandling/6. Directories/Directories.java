@@ -2,7 +2,7 @@ import java.io.File;
 
 public class Directories {
     public static void main(String[] args) {
-        String directoryName = "My_Learning";
+        String directoryName = "test";
         
         // current directory
         String currentDirectory = System.getProperty("user.dir");
